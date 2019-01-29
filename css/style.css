@@ -53,7 +53,7 @@ main {
 }
 
 #landing-image {
-  background: url("https://source.unsplash.com/P8Uk8kdx-BE");
+  background: url("https://source.unsplash.com/De8wMYoSSBc");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -85,8 +85,8 @@ main {
 }
 
 #header h2 {
-  border-left: dotted 1px #fff;
-  border-right: dotted 1px #fff;
+  border-left: solid 1px #fff;
+  border-right: solid 1px #fff;
   display: inline-block;
   padding: 0 1rem;
 }
@@ -106,4 +106,28 @@ footer {
 footer h3 {
   font-size: 3rem;
   margin-bottom: 0;
+}
+
+/* Screen Sizes 500px and Up */
+
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 100vh;
+  }
+
+  #landing-image {
+    height: 100vh;
+  }
+}
+
+/* Screen sizes 700px and Up */
+@media (min-width: 700px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
 }
