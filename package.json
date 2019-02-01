@@ -1,0 +1,23 @@
+{
+  "name": "Responsive-mobile-first-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganchoiliev/Responsive-mobile-first-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganchoiliev/Responsive-mobile-first-website/issues"
+  },
+  "homepage": "https://ganchoiliev.github.io/Responsive-mobile-first-website",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
